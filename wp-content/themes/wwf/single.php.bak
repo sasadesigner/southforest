@@ -1,0 +1,78 @@
+<?php
+/**
+ * The template for displaying all pages, single posts and attachments
+ *
+ * This is a new template file that WordPress introduced in
+ * version 4.3.
+ *
+ * @package OceanWP WordPress theme
+ */
+
+get_header(); ?>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<?php do_action( 'ocean_before_content_wrap' ); ?>
+
+	<div id="content-wrap" class="container clr">
+
+		<?php do_action( 'ocean_before_primary' ); ?>
+
+		<div id="primary" class="content-area clr">
+
+			<?php do_action( 'ocean_before_content' ); ?>
+
+			<!-- #content -->
+
+			<?php do_action( 'ocean_after_content' ); ?>
+			
+			<!-- main post content -->
+			<div class="header-main-cont">
+			<div class="container">
+				  <div class="row">
+					<div class="col-sm-6">
+					  <div class="cont-image">
+							<img src="http://localhost/wwf/wp-content/uploads/2022/05/img-black-flanked-rock-wallaby-cape-range-wa-1000px.jpg" class="img-fluid" alt="Black-flanked rock-wallaby in Cape Range, WA © WWF-Australia / Merril Halley">
+						</div>
+					</div>
+					<div class="col-sm-6">
+					  <div class="flex-display">
+							<div class="cont-text">
+								<div class="breadcrumbs">
+									<?php echo do_shortcode('[oceanwp_breadcrumb]'); ?>
+								</div>
+								<div class="cont-heading">
+								<h2>Mountainous Mission</h2>
+								<p class="date">02 May 2022</p>
+								<div class="keywords"><h6>Keywords</h6>
+								<ul>
+									<li><a href="/tag-results?keyword=threatened species">threatened species</a></li>
+									<li><a href="/tag-results?keyword=snow leopards">snow leopards</a></li>
+								</ul>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				  </div>
+			</div>
+					
+				
+			</div>
+			<div class="post-main-content">
+				<div class="sub-main-title">
+					<p>Compiled by Samundra Subba, WWF-Nepal Research Officer, snow leopard programme.</p>
+				</div>
+				<div class="post-heading-01">
+					<p>Enjoy an exclusive report on Nepal’s latest exciting collaring expedition.
+</p>
+				</div>
+			</div>
+		</div><!-- #primary -->
+
+		<?php // do_action( 'ocean_after_primary' ); ?>
+
+	</div><!-- #content-wrap -->
+
+	<?php do_action( 'ocean_after_content_wrap' ); ?>
+
+<?php get_footer(); ?>

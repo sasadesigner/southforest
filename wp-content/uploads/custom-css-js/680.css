@@ -1,0 +1,112 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+/* #story-carousel span.lae-terms {
+    display: none;
+} */
+#story-carousel .lae-post-text-wrap.lae-bottom-entry-text {
+    position: relative;
+}
+#story-carousel h3.lae-post-title {
+    position: absolute;
+    top: -57px;
+}
+#story-carousel .lae-posts-multislider-style-3 .lae-post-text-wrap {
+    padding: 0 25px 22px;
+}
+#story-carousel lae-post-content{
+	padding: 0px !important;
+}
+
+#story-carousel h3.lae-post-title a {
+    background: #131211;
+    color: #fff !important;
+    padding: 10px 16px;
+    transition: .3s all ease;
+}
+#story-carousel .lae-post-summary {
+    font-size: 1em !important;
+    font-weight: 600 !important;
+}
+#story-carousel .lae-post-overlay.lae-post-featured-img-bg:hover{
+	    border: 12px solid #f37043;
+    box-sizing: border-box;
+    height: 289px;
+    transition: all .3s ease;
+}
+#story-carousel h3.lae-post-title a {
+    background: #131211;
+    color: #fff !important;
+    padding: 10px 16px;
+    transition: .3s all ease;
+}
+#story-carousel h3.lae-post-title a:hover{
+	 background: #f37043;
+}
+.lae-posts-multislider-style-3 .lae-post-text-wrap{
+	border:none;
+}
+.lae-posts-gridbox-slider .slick-next, .lae-posts-gridbox-slider .slick-prev, .lae-posts-multislider .slick-next, .lae-posts-multislider .slick-prev, .lae-posts-slider .slick-next, .lae-posts-slider .slick-prev{
+	width: 50px;
+    height: 50px;
+}
+.lae-slider-arrow-placement-middle-center .lae-posts-multislider-style-3 button.slick-next, .lae-slider-arrow-placement-middle-center .lae-posts-multislider-style-3 button.slick-prev {
+    margin-top: -60px;
+}
+.lae-posts-gridbox-slider .slick-prev:before, .lae-posts-multislider .slick-prev:before, .lae-posts-slider .slick-prev:before {
+    content: "\f104";
+    padding-top: 5px;
+}
+.lae-posts-gridbox-slider .slick-next:before, .lae-posts-multislider .slick-next:before, .lae-posts-slider .slick-next:before {
+    content: "\f105";
+	padding-top: 5px;
+}
+.lae-slider-arrow-color-dark .lae-posts-gridbox-slider .slick-next, .lae-slider-arrow-color-dark .lae-posts-gridbox-slider .slick-prev, .lae-slider-arrow-color-dark .lae-posts-multislider .slick-next, .lae-slider-arrow-color-dark .lae-posts-multislider .slick-prev, .lae-slider-arrow-color-dark .lae-posts-slider .slick-next, .lae-slider-arrow-color-dark .lae-posts-slider .slick-prev {
+    background: #f37043;
+    color: #fff;
+}
+#adopt-header .elementor-1372 .elementor-element.elementor-element-4cde0c1 .sub-menu li.menu-item:not(:last-child), .elementor-1372 .elementor-element.elementor-element-4cde0c1 nav.hfe-dropdown li.menu-item:not(:last-child), .elementor-1372 .elementor-element.elementor-element-4cde0c1 nav.hfe-dropdown-expandible li.menu-item:not(:last-child) {
+   border: none;
+}
+
+/*adopt mobile menu*/
+@media only screen and (max-width: 600px) {
+	ul#menu-1-023f590 li {
+    border: none;
+}
+  .adopt-number {
+    border-top: 1px solid #f36f43 !important;
+    border-bottom: 1px solid #f36f43 !important;
+    padding: 20px 0 !important;
+}
+	.adoptBtmMenu a {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    font-family: 'Lato' !important;
+    padding: 7px 19px!important;
+    opacity: .4;
+    text-transform: capitalize !important;
+}
+	#adopt-sub-menu .hfe-nav-menu-icon {
+    padding: 1.35em;
+    border: 0 solid;
+}
+	#adopt-sub-menu .hfe-nav-menu__toggle.elementor-clickable.hfe-active-menu.hfe-active-menu-full-width {
+    position: absolute;
+    z-index: 9999999;
+    right: 0;
+    top: 0px;
+}
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

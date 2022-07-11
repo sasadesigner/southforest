@@ -1,0 +1,362 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+div#cblogs-content {
+    padding: 0;
+	background-color: #131211;
+}
+.col-sm-6.cblogs-header-left {
+    margin: 5em 0px;
+	color: #fff;	
+}
+.cont-heading h1 {
+    font-weight: bold;
+    font-family: "WWFRegular",sans-serif;
+}
+.sa_hover_container:hover {
+    border: 12px solid #f37043;
+	transition: all .3s ease;
+}
+#involed h3 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: 'WWFRegular';
+    font-size: 27px;
+}
+body .white .sa_owl_theme .owl-nav .owl-prev {
+    background: #f37043 url(http://localhost/wwf/wp-content/uploads/2022/06/icon-prew.png) no-repeat center center !important;
+    height: 48px !important;
+    width: 48px !important;
+}
+body .white .sa_owl_theme .owl-nav .owl-next{
+	 background: #f37043 url(http://localhost/wwf/wp-content/uploads/2022/06/icon-next.png) no-repeat center center !important;
+    height: 48px !important;
+    width: 48px !important;
+}
+#involed .sa_owl_theme .owl-dots .owl-dot span {
+    display: none !important;
+}
+
+a.lae-post-link-overlay:hover {
+    border: 12px solid #f37043;
+}
+div#relatedPostBox a {
+    text-decoration: none;
+    color: #fff;
+}
+h3.lae-post-title:hover{
+	background: #f37043;
+}
+
+/* Related Post box */
+
+div#relatedPostBox {
+    background: #272421;
+}
+.card.tile:before {
+    left: 0;
+    border-right: 25px solid transparent;
+}
+.card.tile:before {
+    content: "";
+    width: calc(50% - -2px);
+    height: 0;
+    position: absolute;
+    bottom: 155px;
+    border-bottom: 25px solid #272421;
+    z-index: 99999;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+}
+.card.tile:after {
+    right: 0;
+    border-left: 25px solid transparent;
+}
+.card.tile:before, .card.tile:after {
+    content: '';
+    width: calc(50% - -2px);
+    height: 0;
+    position: absolute;
+    bottom: 155px;
+    border-bottom: 25px solid #272421;
+    z-index: 2;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+}
+.postImageThumbnail {
+    overflow: hidden;
+}
+.card.tile img:hover{
+    -webkit-transform: scale(1.4) translateZ(0px);
+    transform: scale(1.4) translateZ(0px);
+	 -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+div#cblog-post-box {
+    padding: 5em 11px;
+}
+#cblog-post-box .card-group {
+    box-shadow: 0px 0px 20px 20px #76767640;
+}
+@media (min-width: 1200px){
+.cblog-main-cont .container {
+    width: 900px;
+}
+}
+/* post button css start */
+.tile p.read-more {
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+}
+#relatedPostBox a {
+    text-decoration: none !important;
+}
+.tile p.read-more {
+    background-color: #e96c3f;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+	    color: #fff;
+}
+.tile:hover p.read-more:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(250,166,26,0.2);
+}
+.tile p.read-more:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 100%;
+    background: rgba(250,166,26,0.8);
+    z-index: -1;
+}
+/*About divider Start*/
+#about-divider .elementor-icon i:before, .elementor-icon svg:before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background-color: #fbfbfa;
+    position: absolute;
+    left: -8px;
+    right: 0px;
+    z-index: 9;
+    bottom: -7px;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+div#about-pics figcaption.elementor-image-carousel-caption {
+    background: rgb(0 0 0 / 5%);
+    padding-left: 10px;
+    padding: 32px 27px;
+}
+div#about-pics figcaption.elementor-image-carousel-caption span{
+	font-size: 14px;
+}
+
+/* Time line css */
+.twae-timeline-centered .twae-timeline-entry.twae-left-aligned .twae-timeline-entry-inner .twae-icon {
+    float: right;
+    margin-right: 14px;
+}
+.twae-timeline-centered .twae-timeline-entry .twae-timeline-entry-inner .twae-icon {
+    display: block;
+    margin-left: 15px;
+    margin-top: 13px;
+    width: 20px !important;
+    height: 20px !important;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0;
+    font-size: 0;
+    float: left;
+    padding: 0;
+}
+#customTimeline .twae-icon {
+    border-color: #fff;
+}
+#customTimeline .twae-right-aligned .twae-data-container.twae-no-border {
+    box-shadow: none !important;
+    top: -24px;
+    right: 2em;
+	border-top: 1px solid gainsboro !important;
+    border-bottom: 1px solid gainsboro !important;
+    border-radius: 0;
+}
+#customTimeline .twae-left-aligned .twae-data-container.twae-no-border {
+    box-shadow: none !important;
+    top: -24px;
+    right: 0em;
+    border-top: 1px solid gainsboro !important;
+    border-bottom: 1px solid gainsboro !important;
+    border-radius: 0;
+}
+#customTimeline .twae-right-aligned span.twae-title{
+	background: #066e79;
+    width: auto !important;
+    padding: 0 36px;
+    text-align: center;
+    position: relative;
+    left: 0%;
+}
+#customTimeline .twae-right-aligned span.twae-title:after {
+    position: absolute;
+    left: -5px;
+    top: 31px;
+    margin-top: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #066e79;
+    z-index: 2;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+#customTimeline .twae-left-aligned span.twae-title {
+    background: #066e79;
+    width: auto !important;
+    padding: 0 36px;
+    text-align: center;
+    position: relative;
+    left: 80%;
+}
+#customTimeline .twae-left-aligned span.twae-title:after {
+    position: absolute;
+    left: 112px;
+    top: 31px;
+    margin-top: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #066e79;
+    z-index: 2;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+#customTimeline .twae-left-aligned .twae-description {
+    text-align: end;
+}
+/*Recommended post gird css*/
+#recommend a.eael-infobox-button, .infobox-button-text {
+    width: 100%;
+    text-align: center;
+}
+ #recommend .title, p {
+    padding: 0 16px;
+}
+#recommend .infobox-icon:before, #recommend .infobox-icon:after {
+    content: '';
+    width: calc(50% - -2px);
+    height: 0;
+    bottom: 154px;
+    position: absolute;
+    border-bottom: 25px solid #272421;
+    z-index: 2;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+}
+#recommend .infobox-icon:before{
+	left: 0;
+    border-right: 25px solid transparent;
+}
+#recommend .infobox-icon:after {
+    right: 0;
+    border-left: 25px solid transparent;
+}
+#recommend .infobox-content {
+    position: relative;
+    height: 154px;
+}
+#recommend .eael-infobox {
+    overflow: hidden;
+}
+#recommend .infobox-icon img {
+    height: 300px;
+    width: 100%;
+}
+
+#recommend a.eael-infobox-button {
+    position: absolute;
+    bottom: 0;
+}
+
+/*stories css start*/
+#stories #recommend .infobox-content {
+    position: relative;
+    height: 216px;
+}
+#stories #recommend .infobox-icon:before, #stories #recommend .infobox-icon:after {
+    bottom: 215px;
+}
+#stories #recommend .infobox-icon img {
+    height: 243px;
+    width: 100%;
+}
+span.breadcrumb_last:before {
+    color: #fff !important;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f105';
+    font-size: 22px;
+    right: 0;
+    line-height: 10px;
+    z-index: 9;
+    opacity: initial;
+    position: relative;
+    top: 3px;
+    right: 6px;
+}
+@media only screen and (max-width: 600px) {
+ #news-blog #recommend .infobox-icon img {
+    height: 194px;
+    width: 100%;
+}
+ #news-blog	#recommend .infobox-icon:before, #news-blog #recommend .infobox-icon:after {
+    bottom: 168px;
+   
+}
+#news-blog #recommend .infobox-content {
+    position: relative;
+    height: 170px;
+}
+	#stories #recommend .infobox-icon:before, #stories #recommend .infobox-icon:after {
+    bottom: 242px;
+}
+	#stories #recommend .infobox-content {
+    position: relative;
+    height: 244px;
+}
+	
+}</style>
+<!-- end Simple Custom CSS and JS -->

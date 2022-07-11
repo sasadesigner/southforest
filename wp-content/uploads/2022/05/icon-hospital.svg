@@ -1,0 +1,16 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="12.5" y="1.5" width="117" height="137" fill="#F37043"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M118 114H11V112H118V114Z" fill="#131211"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M131 129L92 129L92 127L131 127L131 129Z" fill="#131211"/>
+<path d="M39 36C39 35.4477 39.4477 35 40 35H102C102.552 35 103 35.4477 103 36V140H39V36Z" fill="#FFDAB8"/>
+<rect x="95" y="73" width="31" height="6" transform="rotate(90 95 73)" fill="#F37043"/>
+<rect x="81" y="73" width="31" height="6" transform="rotate(90 81 73)" fill="#F37043"/>
+<rect x="81" y="116" width="24" height="19" transform="rotate(90 81 116)" fill="#F37043"/>
+<rect x="53" y="73" width="31" height="6" transform="rotate(90 53 73)" fill="#F37043"/>
+<rect x="67" y="73" width="31" height="6" transform="rotate(90 67 73)" fill="#F37043"/>
+<path d="M67.8235 46H74.1765V51.8235H80V58.1765H74.1765V64H67.8235V58.1765H62V51.8235H67.8235V46Z" fill="#F37043"/>
+<rect x="98" y="92" width="54" height="7" transform="rotate(-180 98 92)" fill="#FFDAB8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M124 125L140 125L140 127L124 127L124 125Z" fill="#F37043"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.74845e-07 110L16 110L16 112L0 112L1.74845e-07 110Z" fill="#F37043"/>
+<rect x="12.5" y="1.5" width="117" height="137" stroke="#F37043" stroke-width="3"/>
+</svg>
